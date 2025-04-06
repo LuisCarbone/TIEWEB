@@ -1,0 +1,26 @@
+/*USUARIOS*/
+
+LOAD DATA INFILE "C:\\temp\\data\\usuarios.txt"
+INTO TABLE users
+FIELDS TERMINATED BY '\t' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+/*PARCIALES MATERIAS PERIODO */
+LOAD DATA INFILE 'C:\\temp\\data\\parcialesmateriasperiodo.txt'
+INTO TABLE parcialesmateriasperiodo
+FIELDS TERMINATED BY '\t' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+/*PARCIALES ALUMNOS */
+LOAD DATA INFILE 'C:\\temp\\data\\parcialesalumnos.txt'
+INTO TABLE parcialesalumnos
+FIELDS TERMINATED BY '\t' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;

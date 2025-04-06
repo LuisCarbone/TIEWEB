@@ -1,0 +1,55 @@
+id	nombre	apellido	username	email	password	createdat	updatedat
+1	Agustin	Baino	a_baino	a_baino@gianelli.edu.ar	36382401	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+2	Andrea	Comas	a_comas	a_comas@gianelli.edu.ar	24117829	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+3	Andrea Laura	Fiego	al_fiego	al_fiego@gianelli.edu.ar	23970220	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+4	Andrea Virginia	Oliva	av_oliva	av_oliva@gianelli.edu.ar	16248349	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+5	Carolina	Gomez San Martin	c_gomez_san_martin	c_gomez_san_martin@gianelli.edu.ar	27732145	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+6	Carolina	Rosatelli	c_rosatelli	c_rosatelli@gianelli.edu.ar	36617193	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+7	Cecilia	Pisandelli	c_pisandelli	c_pisandelli@gianelli.edu.ar	16786707	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+8	Estefania	Gauto	e_gauto	e_gauto@gianelli.edu.ar	34575835	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+9	Flavia	Gascue	f_gascue	f_gascue@gianelli.edu.ar	14784629	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+10	Gisela	Castelli	g_castelli	g_castelli@gianelli.edu.ar	24914264	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+11	Gisela Yamil	Lopez Palma	gy_lopez_palma	gy_lopez_palma@gianelli.edu.ar	22626501	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+12	Giselé	Aguirrezabala	g_aguirrezabala	g_aguirrezabala@gianelli.edu.ar	28878826	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+13	Ignacio	Goñi	i_goñi	i_goñi@gianelli.edu.ar	24699167	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+14	Javier Pablo	Andreano	jp_andreano	jp_andreano@gianelli.edu.ar	27416446	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+15	Jesica Edith	Piras	je_piras	je_piras@gianelli.edu.ar	34851393	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+16	Jésica Paola	Lendez	jp_lendez	jp_lendez@gianelli.edu.ar	31264425	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+17	Jimena Beatriz	Montivero	jimonti8	jimonti8@hotmail.com	30681778	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+18	Juan Pablo	Molina	jp_molina	jp_molina@gianelli.edu.ar	37399897	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+19	Juan Pablo	Sansone	jp_sansone	jp_sansone@gianelli.edu.ar	23971640	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+20	Julieta	Medina Villarreal	j_medina_villarreal	j_medina_villarreal@gianelli.edu.ar	37389573	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+21	Laura	Lanchas	l_lanchas	l_lanchas@gianelli.edu.ar	27240157	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+22	Leonardo	Medina	l_medina	l_medina@gianelli.edu.ar	28016203	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+23	Liliana	Ravasio	l_ravasio	l_ravasio@gianelli.edu.ar	12880083	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+24	Lorena	Martín	lolymartin78	lolymartin78@hotmail.com	26056571	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+25	Lucas	Beron	l_beron	l_beron@gianelli.edu.ar	38283827	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+26	M Florencia	Servetti	mf_servetti	mf_servetti@gianelli.edu.ar	33120488	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+27	Maite Belen	Hormahechea	mb_hormahechea	mb_hormahechea@gianelli.edu.ar	36834735	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+28	María Del Pilar	Gomez San Martín	md_gomez_san_martín	md_gomez_san_martín@gianelli.edu.ar	23672500	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+29	María Jose	Herrero	mj_herrero	mj_herrero@gianelli.edu.ar	24117966	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+30	Mariela Raquel	Lorenzo	mr_lorenzo	mr_lorenzo@gianelli.edu.ar	23478348	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+31	Marina	Abad	m_abad	m_abad@gianelli.edu.ar	29067975	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+32	Marina	Serantes	m_serantes	m_serantes@gianelli.edu.ar	32017580	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+33	Martín	Perez	m_perez	m_perez@gianelli.edu.ar	22522263	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+34	Mayra	Moreira	m_moreira	m_moreira@gianelli.edu.ar	36438988	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+35	Melina Laura	Kuwada	ml_kuwada	ml_kuwada@gianelli.edu.ar	31821488	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+36	Micaela	Sanjurjo	m_sanjurjo	m_sanjurjo@gianelli.edu.ar	37030522	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+37	Miguel Ángel	Albani	má_albani	má_albani@gianelli.edu.ar	30720758	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+38	Mirna	Pedersen	m_pedersen	m_pedersen@gianelli.edu.ar	31024048	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+39	Monica Flavia	Gallardo	mf_gallardo	mf_gallardo@gianelli.edu.ar	20204069	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+40	Natalia	Logarzo	n_logarzo	n_logarzo@gianelli.edu.ar	24988472	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+41	Natalia  Paola	Espinosa	n _espinosa	n _espinosa@gianelli.edu.ar	26592988	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+42	Natalia Soledad	Arzoz	ns_arzoz	ns_arzoz@gianelli.edu.ar	33177276	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+43	Nilda	Iacono	n_iacono	n_iacono@gianelli.edu.ar	31476010	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+44	Noelia	Maresca	n_maresca	n_maresca@gianelli.edu.ar	34561261	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+45	Oscar	Petcoff	o_petcoff	o_petcoff@gianelli.edu.ar	22723464	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+46	Paola Sara	Silva Jimenez	ps_silva_jimenez	ps_silva_jimenez@gianelli.edu.ar	19040236	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+47	Patricia	Lopez	p_lopez	p_lopez@gianelli.edu.ar	13878370	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+48	Paula Soledad	Ricci	ps_ricci	ps_ricci@gianelli.edu.ar	27741237	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+49	Rodrigo Javier	Beredo Haag	rj_beredo_haag	rj_beredo_haag@gianelli.edu.ar	27303929	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+50	Sergio	Gigli	s_gigli	s_gigli@gianelli.edu.ar	16195168	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+51	Silvia	Acea	s_acea	s_acea@gianelli.edu.ar	13980757	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+52	Valentín	Diñeiro	v_diñeiro	v_diñeiro@gianelli.edu.ar	41928200	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+53	Vanesa Roxana	Farias	vr_farias	vr_farias@gianelli.edu.ar	27741232	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
+54	Verónica	Gonzalez Roelants	v_gonzalez_roelants	v_gonzalez_roelants@gianelli.edu.ar	17982065	2024-01-24 15:55:16.540	2024-01-24 15:55:16.540
