@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
-import NavBar from 'react-bootstrap/NavBar';
+import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
@@ -44,10 +44,10 @@ const BCNavigationBar = (props) => {
 
 
 return (
-        <NavBar expand="lg" className="bg-body-tertiary" fixed='top'>
+        <Navbar expand="lg" className="bg-body-tertiary" fixed='top'>
             <Container>
                 <Link to="/" className="nav-link">
-                    <NavBar.Brand>
+                    <Navbar.Brand>
                         <img
                             alt=""
                             src="logo.png"
@@ -56,15 +56,15 @@ return (
                             className="d-inline-block align-top"
                         />{" "}
                         PIRULO
-                    </NavBar.Brand>
+                    </Navbar.Brand>
                 </Link>
-                <NavBar.Toggle aria-controls="basic-navbar-nav" />
-                <NavBar.Collapse id="basic-navbar-nav">
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">Link</Nav.Link>
                     </Nav>
-                </NavBar.Collapse>
+                </Navbar.Collapse>
                 <Form>
                     <Row>
                         <Col xs="auto">
@@ -88,7 +88,7 @@ return (
                     : <Link to="/calificaciones" className="nav-link" style={{ marginLeft: "15px" }}>Ingresar</Link>}
 
             </Container>
-        </NavBar>
+        </Navbar>
     );
 }
 

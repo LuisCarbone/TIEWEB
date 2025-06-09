@@ -1,0 +1,57 @@
+
+services:
+  # Base de datos (MariaDB)
+  db:
+    build:
+      context: ./db
+    container_name: tieweb_db  # Nombre fijo para el contenedor
+    environment:
+        # Configuración de la DB (¡Cambia las contraseñas!)
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}  # Desde .env  # Solo para administración
+      MYSQL_DATABASE: tieweb_db
+    volumes:
+      - mariadb_data:/var/lib/mysql #persistencia de datos
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-u root", "-p$${MYSQL_ROOT_PASSWORD}"]
+      interval: 5s
+      timeout: 2s
+      retries: 5
+    ports:
+      - "3306:3306"
+
+  # Backend (Node.js + Express)
+  backend:
+    image: node:18
+    build: ./back  # Usa el Dockerfile dentro de la carpeta 'back'
+    container_name: tieweb-backend
+    ports:
+      - "3000:3000"  # Puerto de la API
+    environment:
+      # Variables para Sequelize (¡Deben coincidir con las de la DB!)
+      DB_HOST: db                   # Nombre del servicio de la DB
+      DB_NAME: tieweb_db
+      DB_PORT: 3306
+      # Otras variables (ej: entorno, secrets)
+      NODE_ENV: development
+    depends_on:
+      db:
+        condition: service_healthy  # Espera a que la DB esté lista
+    
+    volumes:
+      - ./back:/usr/src/app  # Monta el código en vivo (para desarrollo)
+      - /usr/src/app/node_modules  # Evita sobrescribir node_modules
+
+  # Frontend (React/Vite - opcional)
+  frontend:
+    build: ./front  # Usa el Dockerfile dentro de 'front'
+    container_name: tieweb-frontend
+    ports:
+      - "5173:5173"  # Puerto de Vite
+    environment:
+      - VITE_API_URL=http://localhost:3000  # URL del backend
+    depends_on:
+      - backend
+
+# Volúmenes para persistencia
+volumes:
+  mariadb_data:  # Guarda los datos de MariaDB aunque borres el contenedor

@@ -1,7 +1,7 @@
 // auth.js - Módulo para la gestión de autenticación y tokens JWT
 import path from 'path';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import User from '../models/user.js';
 import dotenv from 'dotenv';
 

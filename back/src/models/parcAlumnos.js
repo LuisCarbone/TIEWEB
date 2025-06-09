@@ -69,6 +69,6 @@ const ParcAlumnos = database.define('ParcialesAlumnos', {
     tableName: 'ParcialesAlumnos'
 });
 
-//ParcAlumnos.sync( { force: true });
+ParcAlumnos.sync( { force: true });
 
 export default ParcAlumnos;
